@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'NexaBold';
+    src: url('../fonts/Nexa-Bold.eot');
+    src: url('../fonts/Nexa-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Nexa-Bold.woff2') format('woff2'),
+        url('../fonts/Nexa-Bold.woff') format('woff'),
+        url('../fonts/Nexa-Bold.ttf') format('truetype'),
+        url('../fonts/Nexa-Bold.svg#Nexa-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: $headings-font-family;
+	font-weight: $headings-font-weight;
+	line-height: $headings-line-height;
+	color: $headings-color;
+}
+
+h1{
+	font-size: $h1-font-size;
+	font-family: 'Raleway';
+	font-weight: 700;
+}
+h2{
+	font-size: $h2-font-size;
+	font-family: 'Raleway';
+	font-weight: 600;
+	text-align: center;
+	color: #24282f;
+	text-transform: uppercase;
+}
+h3{
+	font-size: $h3-font-size;
+	color: #b5a263;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+p{
+	font-size: 14px;
+}
+
+a {
+	color: $base-link-color;
+	text-decoration: none;
+	vertical-align:baseline;
+	&:hover,
+	&:focus {
+		text-decoration: none;
+		color: $hover-link-color;
+	}
+}
