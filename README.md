@@ -1,6 +1,6 @@
-# Starter for HTML/CSS/JS projects
+# HTML/CSS/JS project
 
-Includes Gulp to compile Sass into CSS, along with Autoprefixer and Browser Sync.
+Includes Gulp to compile Scss into CSS, along with Autoprefixer and Browser Sync.
 
 ## Setup
 
@@ -22,4 +22,4 @@ With this set up, you should now be able to run:
 
     gulp default
 
-This will process any Sass (SCSS) files and launch a web browser showing the current files. Making changes to the files should result in the page updating automatically.
+This will process any SCSS files and launch a web browser showing the current files. Making changes to the files should result in the page updating automatically.
